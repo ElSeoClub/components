@@ -1,0 +1,22 @@
+{
+    "name": "elseoclub/components",
+    "autoload": {
+        "psr-4": {
+            "Elseoclub\\Components\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ElSeoClub",
+            "email": "elseoclub@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Elseoclub\\Components\\ComponentsServiceProvider"
+            ]
+        }
+    }
+}
