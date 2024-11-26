@@ -11,7 +11,10 @@
             "email": "elseoclub@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^8.0",
+        "secondnetwork/blade-tabler-icons": "^3.22"
+    },
     "extra": {
         "laravel": {
             "providers": [
